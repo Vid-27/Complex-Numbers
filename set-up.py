@@ -6,7 +6,7 @@ with open('README.md', 'r') as file:
 setup(
     name='trignometry',
     version='0.1',
-    description='User ',
+    description='To find complex numbers',
     long_description=long_description,
     long_description_content_type='text/markdown',
     py_modules=['trignometry'],
@@ -19,7 +19,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Operating System :: OS Independent",
     ],
-    install_requires=[import math,import cmath],
-    author='Maria Irudaya Regilan J',
-    author_email='britsa.tech@gmail.com'
+    install_requires=[],
+    url='https://github.com/Vid-27/Trignometry',
+    author='Vidhya Lakshmi D , Maria Irudaya Regilan J',
+    author_email='vidhyasumathi27@outlook.com'
 )
